@@ -11,3 +11,21 @@ emotions = {
     'joy': 2,
     'sadness': 1
 }
+
+
+"""
+Exercise 2
+Write a Person class with the following characteristics:
+    name (string)
+    emotions (dict)
+
+Initialize an instance of Person using your emotions dict from exercise 1.
+"""
+
+class Person:
+    def __init__(self,name,emotions):
+        self.name = name
+        self.emotions = emotions
+
+jeff = Person("Jeff",emotions)
+print(jeff)
